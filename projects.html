@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects - Abhinaya's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .project-card {
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px;
+      transition: all 0.4s ease;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .project-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      background-color: #f0f8ff;
+      z-index: 10;
+    }
+
+    .project-content {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 15px;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .project-card:hover .project-content {
+      background-color: #e0f7fa;
+    }
+
+    h3 {
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="internship.html">Internship</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="skills.html">Skills</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section">
+    <h2 style="text-align: center;">🌟 My Projects</h2>
+
+    <!-- College Management System -->
+    <div class="project-card" style="background-color: #d0f0fd;">
+      <h3>🏫 College Management System</h3>
+      <div class="project-content">
+        <p>I developed a College Management System to manage student, staff, and admin activities efficiently in one platform.</p>
+        <br>
+        <ul>
+          <li>Used Python and Django for backend, and HTML, CSS, JavaScript for frontend.</li>
+          <br>
+          <li>Created modules for Admin, Staff, and Student with role-based access.</li>
+          <br>
+          <li>Implemented user authentication and database management using MySQL.</li>
+          <br>
+          <li>Developed CRUD functionalities and integrated dynamic messaging frameworks.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- IPL Score Prediction -->
+    <div class="project-card" style="background-color: #c2e9fb;">
+      <h3>🏏 IPL Score Prediction</h3>
+      <div class="project-content">
+        <p>Developed an IPL Score Prediction model using machine learning to predict final scores in live cricket matches.</p>
+        <br>
+        <ul>
+          <li>Used Python, pandas, NumPy, and scikit-learn for data analysis and model building.</li>
+          <br>
+          <li>Implemented regression models to predict match outcomes based on live statistics.</li>
+          <br>
+          <li>Deployed model using Streamlit for a simple web interface.</li>
+          <br>
+          <li>Created visualizations to analyze match trends and predictions using Matplotlib.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Ocean Clean-Up Awareness Website -->
+    <div class="project-card" style="background-color: #b3e5fc;">
+      <h3>🌊 Ocean Clean-Up Awareness Website</h3>
+      <div class="project-content">
+        <p>Built a website to raise awareness about ocean pollution and promote global clean-up initiatives.</p>
+        <br>
+        <ul>
+          <li>Designed using HTML, CSS, and JavaScript for an interactive and responsive frontend.</li>
+          <br>
+          <li>Focused on smooth animations and user-friendly UI/UX for engagement.</li>
+          <br>
+          <li>Created sections to educate visitors on the importance of ocean clean-ups.</li>
+          <br>
+          <li>Integrated AI tools and low-code platforms during the development phase for efficiency.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- New Project: AI-Powered Healthcare Chatbot -->
+    <div class="project-card" style="background-color: #a5ddf9;">
+      <h3>🤖 AI-Powered Healthcare Chatbot</h3>
+      <div class="project-content">
+        <p>Developed an AI-powered healthcare chatbot to assist patients with common medical inquiries.</p>
+        <br>
+        <ul>
+          <li>Used Natural Language Processing (NLP) to understand and process user queries.</li>
+          <br>
+          <li>Implemented machine learning models using Python (TensorFlow, Keras) for intent classification.</li>
+          <br>
+          <li>Deployed the chatbot on a web platform using Flask and integrated it into the website.</li>
+          <br>
+          <li>Allowed users to get information on symptoms, diseases, and possible treatments.</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Abhinaya Cheekanti. All rights reserved.</p>
+  </footer>
+</body>
+</html>

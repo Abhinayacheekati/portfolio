@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skills - Abhinaya's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .project-card {
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .project-content {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 15px;
+      margin-top: 10px;
+    }
+
+    h3 {
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="internship.html">Internship</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="skills.html" class="active">Skills</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section">
+    <h2 style="text-align: center;">💡 Technical Skills</h2>
+
+    <!-- Programming Languages -->
+    <div class="project-card" style="background-color: #d0f0fd;">
+      <h3>💻 Programming Languages</h3>
+      <div class="project-content">
+        Python, C, C++, SQL, HTML5, CSS3, JavaScript, JSON
+      </div>
+    </div>
+
+    <!-- Tools and Frameworks -->
+    <div class="project-card" style="background-color: #c2e9fb;">
+      <h3>🔧 Tools & Frameworks</h3>
+      <div class="project-content">
+        Django, Django REST Framework, MySQL, VS Code, GitHub, Streamlit, Bootstrap
+      </div>
+    </div>
+
+    <!-- Data Science -->
+    <div class="project-card" style="background-color: #b3e5fc;">
+      <h3>📊 Data Science Skills</h3>
+      <div class="project-content">
+        Data Collection, Data Cleaning, Data Preprocessing, Exploratory Data Analysis (EDA), Feature Engineering, Data Visualization using Matplotlib and Seaborn
+      </div>
+    </div>
+
+    <!-- Machine Learning & AI -->
+    <div class="project-card" style="background-color: #a5ddf9;">
+      <h3>🤖 Machine Learning & AI</h3>
+      <div class="project-content">
+        Supervised Learning: Linear Regression, Logistic Regression, Decision Trees, Random Forest, SVM<br/>
+        Unsupervised Learning: K-Means Clustering, PCA<br/>
+        Model Evaluation: Accuracy, Confusion Matrix, Precision, Recall<br/>
+        Tools: Scikit-learn, NumPy, Pandas<br/>
+        AI Concepts: NLP, Recommendation Systems, Prediction Models
+      </div>
+    </div>
+
+    <!-- Web Design -->
+    <div class="project-card" style="background-color: #90caf9;">
+      <h3>🌐 Web Design & Frontend</h3>
+      <div class="project-content">
+        Responsive Design, Flexbox, Grid Layout, Animations, Interactive UI, Color Theory, Font Hierarchy, User Engagement Practices
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Abhinaya Cheekanti. All rights reserved.</p>
+  </footer>
+</body>
+</html>
