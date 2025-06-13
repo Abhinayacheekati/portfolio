@@ -5,6 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Abhinaya's Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .project-card {
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px;
+      transition: all 0.4s ease;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .project-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      background-color: #f0f8ff;
+      z-index: 10;
+    }
+
+    .project-content {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 15px;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .project-card:hover .project-content {
+      background-color: #e0f7fa;
+    }
+
+    h3 {
+      color: #2c3e50;
+    }</style>
 </head>
 <body>
   <header>
@@ -19,7 +51,7 @@
     </nav>
   </header>
 
-  <section class="intro">
+  <section class="intro" >
     <div class="intro-text">
       <h1>Hi, I'm Abhinaya!</h1>
       <p>Welcome to my professional portfolio. I am a Software Engineer specializing in AI, Machine Learning, and Web Development.</p>
@@ -28,8 +60,211 @@
       <img src="your-profile-pic.jpg" alt="Profile Picture">
     </div>
   </section>
+  
+  <section class="section" >
+    <h2 style="text-align: center;">My Internship Experience</h2>
+    
+    <div class="project-card" style="background-color: #d0f0fd;">
+      <h3>Braino Vision Internship</h3>
+      <p><strong>Company:</strong> Braino Vision Pvt. Ltd<br>
+         <strong>Role:</strong> Data Science Intern<br>
+         <strong>Duration:</strong> February 2024 – April 2024<br>
+         <strong>Projects:</strong> Real-world Data Analysis and Prediction Tasks<br>
+         <strong>Technologies:</strong> Python, Pandas, NumPy, Matplotlib, Scikit-learn, SQL<br>
+         <strong>Challenges:</strong> Complex datasets, model tuning, and insightful visualization<br>
+         <strong>Outcome:</strong> Built predictive models and dashboards with actionable insights<br>
+         <strong>Improvement:</strong> Improved Python skills, teamwork, real-world problem solving
+      </p>
+      <br><br>
 
+      <section class="internship-projects" style="background-color: #f9f9f9; padding: 40px;">
+        <div class="container">
+          <h2 style="color: #2c3e50; font-size: 28px; margin-bottom: 20px;">💼 Internship Project</h2>
+          
+          <div class="project-card" style="background-color: #ffffff; border-radius: 12px; padding: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin-bottom: 20px;">
+            <h3 style="color: #2980b9;">🧠 Fake News Detection Using Machine Learning</h3>
+            <p><strong>Description:</strong> Built a system that detects whether a news article is real or fake using NLP and ML models.</p>
+            <br>
+            <ul style="line-height: 1.8;">
+              <li>Cleaned and processed real-world text data using NLTK.</li>
+              <li>Used TF-IDF vectorizer to convert news text into numerical format.</li>
+              <li>Trained models like Logistic Regression and Naive Bayes for classification.</li>
+              <li>Deployed the model with a user-friendly Streamlit interface.</li>
+            </ul>
+            <br>
+            <p><strong>Tech Stack:</strong> Python, NLTK, Scikit-learn, Streamlit</p>
+          </div>
+        </div>
+      </section>
+      <br>
+      <br>
+      <p>🌟 Work I Did During My Data Science Internship <br>
+        <br>
+       <li>I used Python libraries like Pandas, NumPy, and Scikit-learn to clean data and apply machine learning models.</li> <br>
+ 
+        <li>I performed data cleaning and preprocessing to remove missing or incorrect values and prepare data for analysis.</li> <br>
 
+        <li>I designed and implemented predictive models to solve real-world problems.</li><br>
+
+        <li>I created data visualizations using Matplotlib and Seaborn to make results easy to understand.</li><br>
+
+        <li>I learned to work with SQL to extract and manage data from databases.</li><br>
+
+        <li>I collaborated with a team and shared ideas to improve the final outcome.</li><br>
+
+        <li>I documented my work clearly for future use and learning.</li><br>
+      </p>
+    </div>
+  </section>
+  
+  <section class="section">
+    <h2 style="text-align: center;">🌟 My Projects</h2>
+
+    <!-- College Management System -->
+    <div class="project-card" style="background-color: #d0f0fd;">
+      <h3>🏫 College Management System</h3>
+      <div class="project-content">
+        <p>I developed a College Management System to manage student, staff, and admin activities efficiently in one platform.</p>
+        <br>
+        <ul>
+          <li>Used Python and Django for backend, and HTML, CSS, JavaScript for frontend.</li>
+          <br>
+          <li>Created modules for Admin, Staff, and Student with role-based access.</li>
+          <br>
+          <li>Implemented user authentication and database management using MySQL.</li>
+          <br>
+          <li>Developed CRUD functionalities and integrated dynamic messaging frameworks.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- IPL Score Prediction -->
+    <div class="project-card" style="background-color: #c2e9fb;">
+      <h3>🏏 IPL Score Prediction</h3>
+      <div class="project-content">
+        <p>Developed an IPL Score Prediction model using machine learning to predict final scores in live cricket matches.</p>
+        <br>
+        <ul>
+          <li>Used Python, pandas, NumPy, and scikit-learn for data analysis and model building.</li>
+          <br>
+          <li>Implemented regression models to predict match outcomes based on live statistics.</li>
+          <br>
+          <li>Deployed model using Streamlit for a simple web interface.</li>
+          <br>
+          <li>Created visualizations to analyze match trends and predictions using Matplotlib.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Ocean Clean-Up Awareness Website -->
+    <div class="project-card" style="background-color: #b3e5fc;">
+      <h3>🌊 Ocean Clean-Up Awareness Website</h3>
+      <div class="project-content">
+        <p>Built a website to raise awareness about ocean pollution and promote global clean-up initiatives.</p>
+        <br>
+        <ul>
+          <li>Designed using HTML, CSS, and JavaScript for an interactive and responsive frontend.</li>
+          <br>
+          <li>Focused on smooth animations and user-friendly UI/UX for engagement.</li>
+          <br>
+          <li>Created sections to educate visitors on the importance of ocean clean-ups.</li>
+          <br>
+          <li>Integrated AI tools and low-code platforms during the development phase for efficiency.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- New Project: AI-Powered Healthcare Chatbot -->
+    <div class="project-card" style="background-color: #a5ddf9;">
+      <h3>🤖 AI-Powered Healthcare Chatbot</h3>
+      <div class="project-content">
+        <p>Developed an AI-powered healthcare chatbot to assist patients with common medical inquiries.</p>
+        <br>
+        <ul>
+          <li>Used Natural Language Processing (NLP) to understand and process user queries.</li>
+          <br>
+          <li>Implemented machine learning models using Python (TensorFlow, Keras) for intent classification.</li>
+          <br>
+          <li>Deployed the chatbot on a web platform using Flask and integrated it into the website.</li>
+          <br>
+          <li>Allowed users to get information on symptoms, diseases, and possible treatments.</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  
+  <section class="section">
+    <h2 style="text-align: center;">My Achievements</h2>
+    
+    <div class="project-card" style="background-color: #b3e5fc;">
+      <h3>🏆 Hackathon Winner - Braino Vision</h3>
+      <p>
+        Secured 1st place in a web technology-based hackathon using AI tools.  
+        Created an environment-themed website focused on ocean clean-up campaigns and plastic reduction.  
+        Presented unique UI/UX and campaign strategies using low-code/no-code tools.
+      </p>
+    </div>
+
+    <div class="project-card" style="background-color: #c2e9fb;">
+      <h3>🏅 Academic Excellence</h3>
+      <p>
+        Graduated with a degree in Computer Science (AI & ML specialization) from Mother Teresa Institute of Science and Technology, Khammam.
+      </p>
+    </div>
+  </section>
+
+  
+  <section class="section">
+    <h2 style="text-align: center;">💡 Technical Skills</h2>
+
+    <!-- Programming Languages -->
+    <div class="project-card" style="background-color: #d0f0fd;">
+      <h3>💻 Programming Languages</h3>
+      <div class="project-content">
+        Python, C, C++, SQL, HTML5, CSS3, JavaScript, JSON
+      </div>
+    </div>
+
+    <!-- Tools and Frameworks -->
+    <div class="project-card" style="background-color: #c2e9fb;">
+      <h3>🔧 Tools & Frameworks</h3>
+      <div class="project-content">
+        Django, Django REST Framework, MySQL, VS Code, GitHub, Streamlit, Bootstrap
+      </div>
+    </div>
+
+    <!-- Data Science -->
+    <div class="project-card" style="background-color: #b3e5fc;">
+      <h3>📊 Data Science Skills</h3>
+      <div class="project-content">
+        Data Collection, Data Cleaning, Data Preprocessing, Exploratory Data Analysis (EDA), Feature Engineering, Data Visualization using Matplotlib and Seaborn
+      </div>
+    </div>
+
+    <!-- Machine Learning & AI -->
+    <div class="project-card" style="background-color: #a5ddf9;">
+      <h3>🤖 Machine Learning & AI</h3>
+      <div class="project-content">
+        Supervised Learning: Linear Regression, Logistic Regression, Decision Trees, Random Forest, SVM<br/>
+        Unsupervised Learning: K-Means Clustering, PCA<br/>
+        Model Evaluation: Accuracy, Confusion Matrix, Precision, Recall<br/>
+        Tools: Scikit-learn, NumPy, Pandas<br/>
+        AI Concepts: NLP, Recommendation Systems, Prediction Models
+      </div>
+    </div>
+
+    <!-- Web Design -->
+    <div class="project-card" style="background-color: #90caf9;">
+      <h3>🌐 Web Design & Frontend</h3>
+      <div class="project-content">
+        Responsive Design, Flexbox, Grid Layout, Animations, Interactive UI, Color Theory, Font Hierarchy, User Engagement Practices
+      </div>
+    </div>
+  </section>
+
+  
 
   <footer>
     <p> abhinayacheekati21@gmail.com </p>
